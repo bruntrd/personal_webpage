@@ -1,0 +1,36 @@
+<div class="row">
+<div class="row contact">
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <a href="https://www.linkedin.com/profile/view?id=AAIAABKvXVQBwhCDHDq2iQ4apyCpU7qjVgIRK9o&trk=nav_responsive_tab_profile"><img src="assets/styles/photos/linkedin_bw.png" class="img-rounded" style="width:100px;height:100px" id="link"></a>
+    </div>
+    <div class="col-md-4">
+        <a href="mailto:bruntrd@gmail.com"><img src="assets/styles/photos/gmail_bw.jpg" class="img-rounded" style="width:100px;height:100px" id="gmail"></a>
+    </div>
+    <div class="col-md-3">
+        <a href="https://twitter.com/ryanbrunt24"><img src="assets/styles/photos/twitter_Fotor.png" class="img-rounded" style="width:100px;height:100px" id ="twitter"></a>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+</div>
+
+<div class="row messageRow">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-9" id="content">
+        <p>Contact Me</p>
+        <div ng-controller="ContactController">
+
+            <form novalidate>
+                Email: <input type="text" ng-model="person.email"/>
+
+                Message <input type="text" ng-model="person.message"/>
+                <input type="submit" ng-click="add(person)" value="Submit"/>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+

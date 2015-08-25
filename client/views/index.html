@@ -1,0 +1,58 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Recent Studies.com</title>
+        <link rel="stylesheet" href="/assets/styles/style.css">
+        <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="header">
+
+                <p id="header">Ryan Brunt.</p></br><p id="description">Half Man. Half Curler. Half Software Dev</p>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                 <ul class="nav nav-tabs" id="mainTab">
+                    <li><a href="#home">About</a></li>
+                    <li><a href="#career">Work Stuff</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#curling">Curling</a></li>
+                </ul>
+                </div>
+                <div class="col-md-1"></div>
+
+            </div>
+        </div>
+        <div class="containter">
+
+                <div>
+                    <main ng-view></main>
+                </div>
+        </div>
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-11">
+                    <ul class>
+                        <li class="footerIcon"><a href="https://www.linkedin.com/profile/view?id=AAIAABKvXVQBwhCDHDq2iQ4apyCpU7qjVgIRK9o&trk=nav_responsive_tab_profile"><img src="assets/styles/photos/linkedin_bw.png" class="img-rounded" style="width:20px;height:20px"></a></li>
+                        <li class="footerIcon"><a href="mailto:bruntrd@gmail.com"><img src="assets/styles/photos/gmail_bw.jpg" class="img-rounded" style="width:20px;height:20px"></a></li>
+                        <li class="footerIcon"><a href="https://twitter.com/ryanbrunt24"><img src="assets/styles/photos/twitter_Fotor.png" class="img-rounded" style="width:20px;height:20px"></a></li>
+                        <li class="footerIcon"><a href="https://en.wikipedia.org/wiki/Ryan_Brunt_(curler)"><img src="assets/styles/photos/wiki.png" class="img-rounded" style="width:20px;height:20px"></a></li>
+                        <li class="footerIcon"><a href="http://www.teamusa.org/usa-curling/athletes/Ryan-Brunt"><img src="assets/styles/photos/usacurl.png" class="img-rounded" style="width:20px;height:20px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    <script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/controllers/controller.min.js"></script>
+    </body>
+
+</html>
